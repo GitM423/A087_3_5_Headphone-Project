@@ -254,12 +254,12 @@ section p{
 
 /* Lounger and Experience */
 #lounger div{
-    height: 105vh; /* so that the page scrolls, otherwise height: 100vh */
+    height: 100vh;
     background: url("../img/section-voyager.jpg") center/cover no-repeat;
     object-fit: cover;
 }
 #experience div{
-    height: 105vh; /* so that the page scrolls, otherwise height: 100vh */
+    height: 100vh;
     background: url("../img/section-experience-1.jpg") center/cover no-repeat;
     object-fit: cover;
 }
@@ -267,7 +267,7 @@ section p{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 22% 0 7.7%;
+    padding: 5vh 22% 0 7.7%;
 }
 #lounger h1, #experience h1{
     margin-bottom: 7.8rem;
@@ -282,7 +282,7 @@ section p{
 
 /* Shop */
 #shop div{
-    height: 105vh; /* so that the page scrolls, otherwise height: 100vh */
+    height: 100vh;
     background: url("../img/section-composition4.jpg") center/cover no-repeat;
     object-fit: cover;
 }
@@ -329,7 +329,7 @@ section p{
     width: 60%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 25vh auto ; /* so that the page scrolls, otherwise margin-bottom: 0 */
+    margin: 25vh auto 0;
 }
 #s_c div div *{
     display: block;
