@@ -67,7 +67,8 @@ header nav a:hover{
 aside{
     position: fixed;
     left: 0;
-    top: 29.8vh;
+    top: 59vh;
+    transform: translateY(-50%);
 }
 aside nav{
     width: 20%;
